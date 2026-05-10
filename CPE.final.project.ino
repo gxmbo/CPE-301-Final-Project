@@ -111,13 +111,13 @@ volatile unsigned char *myTWAMR = (unsigned char *)0xBD;
 #define TWI_DATA_R_NACK  0x58
 
 // settings
-const unsigned int ACTIVE_THRESHOLD      = 220;
+const unsigned int ACTIVE_THRESHOLD      = 215;
 const unsigned int ACTIVE_EXIT_THRESHOLD = 180;   // hysteresis to avoid chatter
-const unsigned int LEVEL2_THRESHOLD      = 300;
-const unsigned int LEVEL3_THRESHOLD      = 380;
-const unsigned int LEVEL4_THRESHOLD      = 450;
-const unsigned int WARN_THRESHOLD        = 500;
-const unsigned int WARN_EXIT_THRESHOLD   = 470;   // hysteresis for warning zone
+const unsigned int LEVEL2_THRESHOLD      = 230;
+const unsigned int LEVEL3_THRESHOLD      = 240;
+const unsigned int LEVEL4_THRESHOLD      = 248;
+const unsigned int WARN_THRESHOLD        = 260;
+const unsigned int WARN_EXIT_THRESHOLD   = 253;   // hysteresis for warning zone
 
 const unsigned int SENSOR_LOW_FAULT  = 2;
 const unsigned int SENSOR_HIGH_FAULT = 1021;
